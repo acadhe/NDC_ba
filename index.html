@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>IDB_Proposals</title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+ <meta content="text/html;" http-equiv="content-type" charset="utf-8">
+  <title>transformacionesMX</title>
   <script src="jquery-2.1.0.min.js"></script>
   <script src="diffWidget.js"></script>
-  <link rel="stylesheet" type="text/css" href="diffWidget.css">
-  <style type="text/css">
-    body {
-      margin: 10px auto;
-      width: 960px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
+
+
+
 <body>
 
-  <h1>IADB NDC Proposals</h1>
-  <h2>See the before and after models proposed</h2>
+  <div id="titulo">
+    
+    <h1>Intrumento de Observación de Cambios Orientado a la Gentrificación</h1>
+
+  </div>
+
+ <div id="big_wrapper">
+
+     <h2>See the before and after models proposed</h2>
 
   <h3>Bike path connecting PIC to Trou Du Nord</h3>
+    <p>Año inicial: 2007<br>
+       Año final: 2015
+    </p>
   <div id="ex1"></div>
 
   <h3>TROU DU NORD: Transformation for a new Intermodal Transportation Station</h3>
@@ -29,15 +39,18 @@
   <h3>land use change</h3>
   <div id="ex4"></div>
 
+   <h3>limon/h3>
+  <div id="ex5"></div>
+
   <script>
     $(document).ready(function(){
 
       $('#ex1').diffWidget({
-      'width': '666px',
-        'height': '379px',
-        'top': 'images/bike_before.jpg',
-        'bottom': 'images/bike_after.jpg',
-        'position': '75%'
+      'width': '650px',
+        'height': '380px',
+        'top': 'images/bcn_1.png',
+        'bottom': 'images/bcn_2.png',
+        'position': '100%'
       });
 
       $('#ex2').diffWidget({
@@ -58,17 +71,24 @@
       });
 
        $('#ex4').diffWidget({
-       'width': '664px',
-        'height': '221px',
-        'top': 'images/limon_before.jpg',
-        'bottom': 'images/limon_after.jpg',
+       'width': '1361px',
+        'height': '680px',
+        'top': 'images/juarez1.png',
+        'bottom': 'images/juarez2.png',
         'position': '75%'
-      })
+      });
+       $('#ex5').diffWidget({
+       'width': '2023px',
+        'height': '2066px',
+        'top': 'images/before.png',
+        'bottom': 'images/after.png',
+        'position': '75%'
+      });
 
 
 
     })    
   </script>
-
+</div>
 </body>
 </html>
