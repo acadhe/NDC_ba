@@ -39,6 +39,7 @@ body
     width: 100%; 
     text-align: left; 
     margin: 0px auto;
+    background-color: #b0c4de;
 }   
 
 h1 { 
@@ -73,29 +74,43 @@ h3 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    color: yellow;
 }
 
 #big_wrapper { 
     border: 1px solid black;
-    width: 100%;
+    width: 90%;
     margin: 20px auto;
     text-align: left;
-    padding: 10px;
-    background-color: green;
+    padding: 20px;
+    background-color: rgba(70, 140, 81, .9);
 
   }
 
   #titulo {
-        border: 1px #3E787B;
-        background-color: #3E787B; 
-        width: 100%;
+        border: 1px #b0c4de;
+        background-color: #b0c4de; 
+        width: 90%;
         margin: 20px auto;
         padding: 5px;
 
         text-align: center;
-
-
     }
+
+.banner {
+padding: 3px;
+border: 0px solid black;
+height: 100%;
+width:200px;
+margin-left: -230px;
+margin-top: -20px;
+position: fixed;
+text-align:center;
+background-color: rgba(0,0,0,.7);
+box-shadow: 2px 1px 5px rgb(0,0,0);
+}
+
+
 
 
 
