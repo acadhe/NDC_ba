@@ -44,9 +44,9 @@ body
 
 h1 { 
     display: block;
-    font-size: 3em;
+    font-size: 1.5em;
     font-family: "Andale Mono", monospace; 
-    margin-top: 0.67em;
+    margin-top: 0.4em;
     margin-bottom: 0.67em;
     margin-left: 0;
     margin-right: 0;
@@ -78,12 +78,13 @@ h3 {
 }
 
 #big_wrapper { 
-    border: 1px solid black;
+    border: 0px solid black;
     width: 90%;
     margin: 20px auto;
     text-align: left;
     padding: 20px;
     background-color: rgba(70, 140, 81, .9);
+    border-radius: 25px;
 
   }
 
