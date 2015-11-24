@@ -58,14 +58,26 @@ body
     width: 20%;
     height: 100%;
     position: fixed;
-    background-color: #B2A89D;
+    background-color: rgba(18,18,18,.95);
 }
 
-#left img {
+#left .effect img.image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+}
+
+#left .effect:hover img.image {
+    display: none;
+}
+
+#left .effect img.hover {
+    display: none;
+}
+
+#left .effect:hover img.hover {
+    display: block;
 }
 
 h1 { 
