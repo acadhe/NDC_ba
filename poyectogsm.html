@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html;" http-equiv="width=device-width, initial-scale=1" charset="utf-8" >
+  <title>ArturoCadena</title>
+  <script src="jquery-2.1.0.min.js"></script>
+  <script src="diffWidget.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css"/>
+  <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+
+</head>
+
+
+<body>
+<div id= "left">
+  <div class= "effect">
+  <img class= "image" src="images/arturo.png" alt="HTML5 Icon" style="width:128px; height:128px;"/>
+  <img class= "image hover" src="images/arturologo.png" alt="HTML5 Icon" style="width:128px; height:128px;"/>
+</div>
+
+
+  <h3>Arturo Cadena</h3>
+  <h4>Urbanista <br> Visualización de datos, coder, mapper</h4>
+
+
+  <nav class="vertical">
+    <ul>
+       <li><a href="index.html">projects</a></li>
+       <li><a href="#about">About/CV</a></li>
+       <li><a href="#blog">blog</a></li>
+       <li><a href="contacto.html">contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="footer_wrap">
+  <div id="footer">
+    <li><a href="http://www.facebook.com"><img src='icons/ghub'/></a></li>
+    <li><a href="http://www.twitter.com"><img src='icons/linkid'/></a></li>
+    <li><a href="http://www.twitter.com"><img src='images/arturologo2.png'/></a></li>
+  </div>
+</div>
+
+
+
+</div>
+
+<div id= "right">
+
+  <div id="titulo">
+    
+    <h1>Instrumento de observación de cambios orientado a la gentrificación</h1>
+
+  </div>
+
+
+
+
+ <div id="big_wrapper">
+
+  <div id="textintro">
+
+     <h2>See the before and after models proposed</h2>
+      
+      <div id="horizontal">
+    <ul>
+       <li><a href="#renovacion">Renovación</a></li>
+       <li><a href="#deterioro">Deterioro</a></li>
+       <li><a href="#mapp">Mapa</a></li>
+    </ul>
+  </div>
+
+  </div>
+
+<div id="renovacion">
+
+  <div id="ex1">
+     <h3>Bike path connecting PIC to Trou Du Nord</h3>
+    <p>Foto inicial: 2007<br>
+       Foto final: 2015
+    </p>
+  </div>
+
+
+  <div id="ex2">
+    <h3>TROU DU NORD: Transformation for a new Intermodal Transportation Station</h3>
+  </div>
+
+  </div>
+
+  <div id="deterioro">
+
+  <div id="ex3">
+    <h3>Urban Development on the freeway Limonade</h3>
+  </div>
+
+  
+  <div id="ex4">
+    <h3>land use change</h3>
+  </div>
+
+</div>
+
+<div id="mapp">
+
+<h3>mapa de transformación de lotes</h3>
+ <iframe width="95%" height="420" frameborder="0" src="https://flockmx.cartodb.com/viz/5131f2ac-fc2d-11e4-a15a-0e0c41326911/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+
+</div>
+
+
+  <script>
+    $(document).ready(function(){
+
+      $('#ex1').diffWidget({
+      'width': '600px',
+        'height': '380px',
+        'top': 'images/bcn_1.png',
+        'bottom': 'images/bcn_2.png',
+        'position': '100%'
+      });
+
+      $('#ex2').diffWidget({
+      'width': '600px',
+        'height': '380px',
+        'top': 'images/bcn_1.png',
+        'bottom': 'images/bcn_2.png',
+        'position': '100%'
+      });
+
+      $('#ex3').diffWidget({
+      'width': '600px',
+        'height': '380px',
+        'top': 'images/bcn_1.png',
+        'bottom': 'images/bcn_2.png',
+        'position': '100%'
+      });
+
+       $('#ex4').diffWidget({
+      'width': '600px',
+        'height': '380px',
+        'top': 'images/bcn_1.png',
+        'bottom': 'images/bcn_2.png',
+        'position': '100%'
+      });
+
+       $('#ex5').diffWidget({
+      'width': '600px',
+        'height': '380px',
+        'top': 'images/bcn_1.png',
+        'bottom': 'images/bcn_2.png',
+        'position': '100%'
+      });
+
+       $('#ex6').diffWidget({
+      'width': '600px',
+        'height': '380px',
+        'top': 'images/bcn_1.png',
+        'bottom': 'images/bcn_2.png',
+        'position': '100%'
+      });
+
+
+
+    })    
+  </script>
+</div>
+
+</div>
+</body>
+</html>
