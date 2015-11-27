@@ -16,6 +16,8 @@
   z-index: 3;
   top: 0;
   left: 0;
+  border-radius: 10px;
+  opacity: .85;
 
 }
 
@@ -26,6 +28,7 @@
   z-index: 2;
   top: 0;
   left: 0;
+  border-radius: 10px;
 }
 
 html {
@@ -47,7 +50,8 @@ body
 
 #right {
     width: 80%;
-    height: 100%;
+    height: auto;
+    margin-bottom: 0px;
     outline: 0px solid;
     position: absolute;
     right: 0;
@@ -55,6 +59,21 @@ body
     border: 0;
 
 }
+
+#right #content {
+    width: 97%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 10px;
+    outline: 0px solid;
+    position: relative;
+    right: 0;
+    background-color: white;
+    border: 0;
+
+}
+
 
 #left {
     width: 20%;
@@ -156,10 +175,14 @@ h3 {
 
 #right #big_wrapper { 
     margin-top: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: gray;
-    padding: 10px
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 30px; 
+    border: 1px solid black;
+    padding: 40px;
+
+
   }
 
 
@@ -181,10 +204,12 @@ h3 {
   }
 
   #right  #ex1 {
-      background-color: rgba(20, 20, 20, .7);
-      padding: 10px;
+      background-color: rgba(20, 20, 20, .0);
+      padding: 20px;
       margin-top: 50px;
       border-radius: 5px;
+      border: 1px rgba(20, 20, 20, .5) ;
+      border-style: dashed;
       width: 50% auto;
       height: auto;
 }
@@ -195,11 +220,11 @@ h3 {
   border-radius: 0px;
   box-shadow: 0 0 0px rgba(0,0,0,.15);
   overflow: hidden;
-  text-align: left;
+  text-align: center;
   display: inline-block; 
   width: 100%; 
-  margin-top: 30px;
-  margin-left: 50px;
+  margin-top: 50px;
+  margin-left: 0px;
   padding: 0px;
   float: left;
 }
@@ -289,6 +314,7 @@ h3 {
 
 #right #mapc {
 margin-top: 45px;
+margin-bottom: 0%;
   }
 
 
@@ -327,9 +353,9 @@ ul.rig {
 }
 ul.rig li {
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   margin: 0 0 2.5% 2.5%;
-  background: #fff;
+  background: white;
   border: 1px solid #ddd;
   font-size: 16px;
   font-size: 1rem;
@@ -384,7 +410,7 @@ ul.rig.columns-4 li {
   }
 }
 
-#footer_wrap {bottom:0; position:fixed; background-color: rgba(20, 20, 20, .8); width: 20%;}
+#footer_wrap {bottom:0; position:fixed; background-color: rgba(20, 20, 20, .8); width: 20%; }
 #footer_wrap #footer { float: right; margin-top:5px;}
 #footer_wrap #footer ul { padding:5px; margin:0 0 0 1px; float:right; width:100%;}
 #footer_wrap #footer li {float:right; list-style:none; display: table-cell; width: 35px; text-align: center; margin: 0}
