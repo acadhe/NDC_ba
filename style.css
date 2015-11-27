@@ -41,6 +41,7 @@ body
     margin: 0;
     height:100%;
     padding: 0;
+    z-index: 2;
 
   }   
 
@@ -64,22 +65,22 @@ body
     margin-right: auto;
 }
 
-#left .effect img.image {
+.effect img.image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
 }
 
-#left .effect:hover img.image {
+.effect:hover img.image {
     display: none;
 }
 
-#left .effect img.hover {
+.effect img.hover {
     display: none;
 }
 
-#left .effect:hover img.hover {
+.effect:hover img.hover {
     display: block;
 }
 
@@ -291,15 +292,6 @@ margin-top: 45px;
   }
 
 
-#footer_wrap {bottom:0; position:fixed; background-color: white; width: 20%;}
-#footer_wrap #footer { float: right; margin-top:10px;}
-#footer_wrap #footer ul { padding:5px; margin:0 0 0 1px; float:right; width:100%;}
-#footer_wrap #footer li {float:right; list-style:none; display: table-cell; width: 35px; text-align: center;}
-
-
-
-
-
 /* taken from http://alijafarian.com/responsive-image-grids-using-css/ */
 ul.rig.columns-2 li img.img1 {
     max-width: 100%;
@@ -347,6 +339,8 @@ ul.rig li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
+
 ul.rig li img {
   max-width: 100%;
   height: auto;
@@ -376,7 +370,7 @@ ul.rig.columns-4 li {
 @media (max-width: 480px) {
   ul.grid-nav li {
     display: block;
-    margin: 0 0 5px;
+    margin: 0 0 0px;
   }
   ul.grid-nav li a {
     display: block;
@@ -386,6 +380,11 @@ ul.rig.columns-4 li {
   }
   ul.rig li {
     width: 100% !important; /* over-ride all li styles */
-    margin: 0 0 20px;
+    margin: 0 0 0px;
   }
 }
+
+#footer_wrap {bottom:0; position:fixed; background-color: rgba(20, 20, 20, .8); width: 20%;}
+#footer_wrap #footer { float: right; margin-top:5px;}
+#footer_wrap #footer ul { padding:5px; margin:0 0 0 1px; float:right; width:100%;}
+#footer_wrap #footer li {float:right; list-style:none; display: table-cell; width: 35px; text-align: center; margin: 0}
