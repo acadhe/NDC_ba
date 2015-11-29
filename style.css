@@ -138,10 +138,11 @@ h1 {
     font-family: "Courier New", Courier, monospace;
     margin-top: 0.4em;
     margin-bottom: 0.67em;
-    margin-left: 30px;
+    margin-left: 130px;
     margin-right: 0;
+    text-align: left;
     font-weight: normal;
-    text-align: left; 
+    position: middle;
     color: white;
 
 }
@@ -214,7 +215,7 @@ h3 {
   width: 100%;
   border: 1px solid gray;
   border-radius: 0px;
-  background: rgba(209, 27, 0, .1);
+  background: rgba(217, 176, 54, .1);
   border-style: dashed;
 }
 
@@ -226,53 +227,99 @@ font-size: 1.5rem;
 letter-spacing: .5rem;
 margin: 0px 0px -10px 0px;
 height: 30px;
-background-color: rgba(209, 27,0, .7);
+background-color: rgba(217, 176, 54, .7);
 border-radius: 10px 10px, 0 , 0;
 
 }
 
-#renovacion table{
-color: black;
+#texto-derecha table {
+  color: white;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
-font-size: .9rem;
-border-spacing: 9px;
+font-size: .6rem;
+border-spacing: .6rem;
 font-weight: normal;
+margin-top: 10px;
 }
 
-#renovacion th{
+
+#texto-derecha th {
+  color: black;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: .65rem;
+border-spacing: 0px;
+font-weight: bold;
+text-align: left;
+width: 50%;
+}
+
+
+#texto-derecha td {
 color: black;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
-font-size: .9rem;
+font-size: .6rem;
+font-weight: normal;
+text-align: center;
+margin-left: 1px;
+width: 50%;
+
+}
+
+ table{
+color: black;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: .8rem;
+border-spacing: 3px;
+font-weight: normal;
+margin-left: 15px;
+}
+
+ th{
+color: black;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: .8rem;
 border-spacing:0;
 font-weight: 2000;
-text-align: right;
+text-align: left;
 
 }
 
-
-
 #deterioro {
- width: 100%;
+  width: 100%;
   border: 1px solid gray;
   border-radius: 0px;
-  background: rgba(209, 27, 0, .1);
+  background: rgba(47, 128, 197, .1);
   border-style: dashed;
 }
 
+ #deterioro h1{
+  color: white;
+text-align: center;
+font-size: 1.5rem;
+letter-spacing: .5rem;
+margin: 0px 0px -10px 0px;
+height: 30px;
+background-color: rgba(47, 128, 197, .7);
+border-radius: 10px 10px, 0 , 0;
+}
+
+
+
+
 #ex {
       
-      border: 1px rgba(20, 20, 20, .5) ;
+      border-top: 1px  dashed rgba(20, 20, 20, .5);
       display: -webkit-box;
       -webkit-box-orient:horizontal;
-
-
 }
 
  #ex1, #ex2, #ex3, #ex4, #ex5, #ex6, #ex7 {
-      border: 1px rgba(20, 20, 20, .5) ;
+      border: 0px rgba(20, 20, 20, .5) ;
       border-style: dashed;
       background-color: rgba(20, 20, 20, .0);
-      margin: 15px;
+      margin-top: 0px; 
+      margin-left:10px;
+      margin-bottom:5px;
+      margin-right: 0px;
       padding: 10px;
       border-radius: 5px;      
       width: 70%;
@@ -282,13 +329,12 @@ text-align: right;
 
 
 #right #texto-derecha {
-      background-color: rgba(20, 20, 20, .0);
-      width:120px;
-      padding: 20px;
-      margin: 10px 0;
-      margin-top: 100px;
+      background: rgba(20, 20, 20, 0) ;
+      width: 200px;
+      padding: 5px;
+      margin-top: 80px;
       border-radius: 3px;
-      height: 100%;
+      height: 370px;
       border: 1px solid rgba(20, 20, 20, 1) ;
       border-style: dotted;
       position: center;
