@@ -14,7 +14,7 @@
 .diffWidget .first {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 380px;
   z-index: 3;
   top: 0;
   left: 0;
@@ -220,17 +220,7 @@ h3 {
 }
 
 
-#renovacion h1{
-color: white;
-text-align: center;
-font-size: 1.5rem;
-letter-spacing: .5rem;
-margin: 0px 0px -10px 0px;
-height: 30px;
-background-color: rgba(217, 176, 54, .7);
-border-radius: 10px 10px, 0 , 0;
 
-}
 
 #texto-derecha table {
   color: white;
@@ -296,12 +286,36 @@ text-align: left;
 text-align: center;
 font-size: 1.5rem;
 letter-spacing: .5rem;
-margin: 0px 0px -10px 0px;
+margin: 0px 0px 0px 0px;
 height: 30px;
 background-color: rgba(47, 128, 197, .7);
 border-radius: 10px 10px, 0 , 0;
 }
 
+#mapp h1{
+  color: white;
+text-align: center;
+font-size: 1.5rem;
+letter-spacing: .1rem;
+margin: 10px 0px 0px 0px;
+height: 30px;
+width: 100%;
+background-color: rgba(47, 128, 197, .7);
+border-radius: 10px 10px, 0 , 0;
+}
+
+
+#renovacion h1{
+color: white;
+text-align: center;
+font-size: 1.5rem;
+letter-spacing: .5rem;
+margin: 0px 0px 0px 0px;
+height: 30px;
+background-color: rgba(217, 176, 54, .7);
+border-radius: 10px 10px, 0 , 0;
+
+}
 
 
 
@@ -333,10 +347,12 @@ border-radius: 10px 10px, 0 , 0;
       width: 200px;
       padding: 5px;
       margin-top: 80px;
+      margin-right: 20px;
+      margin-left: -5px;
       border-radius: 3px;
-      height: 370px;
+      height: 360px;
       border: 1px solid rgba(20, 20, 20, 1) ;
-      border-style: dotted;
+      border-style: dotted;x
       position: center;
   
 }
