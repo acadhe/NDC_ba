@@ -211,33 +211,69 @@ h3 {
   }
 
 #renovacion {
-
   width: 100%;
-  display; -webkit-box
-  -webkit-box-pack: center;
-  border: 1px solid black;
+  border: 1px solid gray;
+  border-radius: 0px;
+  background: rgba(209, 27, 0, .1);
+  border-style: dashed;
 }
 
-#deterioro {
 
-  width: 100%;
-  display; -webkit-box
-  -webkit-box-pack: center;
-  border: 1px solid black;
+#renovacion h1{
+color: white;
+text-align: center;
+font-size: 1.5rem;
+letter-spacing: .5rem;
+margin: 0px 0px -10px 0px;
+height: 30px;
+background-color: rgba(209, 27,0, .7);
+border-radius: 10px 10px, 0 , 0;
+
+}
+
+#renovacion table{
+color: black;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: .9rem;
+border-spacing: 9px;
+font-weight: normal;
+}
+
+#renovacion th{
+color: black;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: .9rem;
+border-spacing:0;
+font-weight: 2000;
+text-align: right;
+
+}
+
+
+
+#deterioro {
+ width: 100%;
+  border: 1px solid gray;
+  border-radius: 0px;
+  background: rgba(209, 27, 0, .1);
+  border-style: dashed;
 }
 
 #ex {
+      
+      border: 1px rgba(20, 20, 20, .5) ;
       display: -webkit-box;
       -webkit-box-orient:horizontal;
+
+
 }
 
  #ex1, #ex2, #ex3, #ex4, #ex5, #ex6, #ex7 {
-      border: 0px rgba(20, 20, 20, .5) ;
+      border: 1px rgba(20, 20, 20, .5) ;
       border-style: dashed;
       background-color: rgba(20, 20, 20, .0);
       margin: 15px;
-      margin-top: 0px;
-      padding: 20px;
+      padding: 10px;
       border-radius: 5px;      
       width: 70%;
       height: auto;
@@ -251,9 +287,10 @@ h3 {
       padding: 20px;
       margin: 10px 0;
       margin-top: 100px;
-      border-radius: 1px;
+      border-radius: 3px;
       height: 100%;
-      border: 3px solid rgba(20, 20, 20, 1) ;
+      border: 1px solid rgba(20, 20, 20, 1) ;
+      border-style: dotted;
       position: center;
   
 }
@@ -341,6 +378,8 @@ background-color: rgb(114, 51, 98);
     background-image: linear-gradient(150deg, rgba(252, 72, 25, .8), rgba(252, 72, 25, .8)); 
     cursor: move;
 }
+
+
   
 
 
