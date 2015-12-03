@@ -328,6 +328,24 @@ border-radius: 15px;
 background-color: rgba(128,127,131,.15);
 }
 
+#estadisticas h1{
+  color: white;
+text-align: center;
+font-size: 1.5rem;
+letter-spacing: .1rem;
+margin: 10px 0px 0px 0px;
+height: 30px;
+width: 100%;
+background-color: rgba(34, 131, 67, .5);
+border-radius: 10px 10px, 0 , 0;
+}
+#estadisticas img{
+margin: 0px 0px 10px 0px;
+border-radius: 15px ;
+border-color: 1px solid black;
+}
+
+
 
 #renovacion h1{
 color: white;
