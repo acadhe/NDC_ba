@@ -317,8 +317,15 @@ letter-spacing: .1rem;
 margin: 10px 0px 0px 0px;
 height: 30px;
 width: 100%;
-background-color: rgba(47, 128, 197, .7);
+background-color: rgba(34, 131, 67, .5);
 border-radius: 10px 10px, 0 , 0;
+}
+#mapp img{
+margin: 0px 0px 10px 0px;
+border-radius: 15px;
+}
+#mapp img.image3{
+background-color: rgba(128,127,131,.15);
 }
 
 
@@ -499,15 +506,15 @@ ul.rig.columns-2 li:hover img.hover {
 ul.rig {
   list-style: none;
   font-size: 0px;
-  margin-left: -2.5%; /* should match li left margin */
+  margin-left: -1.5%; /* should match li left margin */
 
 }
 ul.rig li {
   display: inline-block;
   padding: 5px;
-  margin: 0 0 2.5% 2.5%;
+  margin: 0 0 0% 1.5%;
   background: white;
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   font-size: 16px;
   font-size: 1rem;
   vertical-align: top;
@@ -533,7 +540,7 @@ ul.rig li p {
 }
 /* class for 2 columns */
 ul.rig.columns-2 li {
-  width: 47.5%; /* this value + 2.5 should = 50% */
+  width: 48.5%; /* this value + 2.5 should = 50% */
 }
 /* class for 3 columns */
 ul.rig.columns-3 li {
