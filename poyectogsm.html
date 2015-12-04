@@ -3,7 +3,9 @@
 <head>
   <meta content="text/html;" http-equiv="width=device-width, initial-scale=1" charset="utf-8" >
   <title>ArturoCadena</title>
-  <script src="jquery-2.1.0.min.js"></script>
+  <script src="jquery-2.1.4.min.js"></script>
+  <script src="Chart.js"></script>
+
   <script src="diffWidget.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="shortcut icon" link rel="shortcut icon" href="https://d30y9cdsu7xlg0.cloudfront.net/png/50011-200.png">
@@ -224,25 +226,34 @@
 <!--this closes deterioro-->
 </div>
 
+
 <div id="mapp">
 
 <h1>mapa de transformación de lotes</h1>
  <iframe width="100%" height="620" frameborder="0" src="https://flockmx.cartodb.com/viz/7ed2dcd2-946f-11e5-8a7a-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
 <h1> Modelo 3d</h1>
 <h2> Convirtiendo un heatmap en un mapa topográfico de inmuebles renovación y deterioro</h2>
 <img class= "image" src="images/grafica0.png" alt="HTML5 Icon" style="width:100%; height:500px;"/>
 <img class= "image" src="images/grafica.png" alt="HTML5 Icon" style="width:100%; height:500px;"/>
 <img class= "image3" src="images/grafica2.png" alt="HTML5 Icon" style="width:100%; height:100px;"/>
 
+</div>
+
+
 <div id="estadisticas">
 <h1> Estadisticas</h1>
 <img class= "image" src="images/renovafuerte_araña.png" alt="HTML5 Icon" style="width:100%; height:500px;"/>
 <img class= "image" src="images/renovamedia.png" alt="HTML5 Icon" style="width:100%; height:500px;"/>
 <img class= "image" src="images/renovabaja_araña.png" alt="HTML5 Icon" style="width:100%; height:500px;"/>
+<!--tchart-->
+<canvas id="mycanvas"></canvas>
+   
+<!--tchart-->
 </div>
 
 
-</div>
+
 
 
   <script>
@@ -296,9 +307,55 @@
         'position': '100%'
       });
 
+       //chart.js
+
+       var ctx = $("#mycanvas").get(0).getContext("2d");
 
 
-    })    
+        var data = {
+    labels: ["Espacio Público", "Movilidad", "construcciones para la clase alta", "Incremento de niveles", "Dispositivos de Seguridad", "Signos de culturas extranjeras"],
+    datasets: [
+        {
+            label: "My First dataset",
+            fillColor: "rgba(220,220,220,0.2)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [65, 59, 90, 81, 56, 55]
+        },
+        {
+            label: "My Second dataset",
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: [28, 48, 40, 19, 96, 27]
+        },
+
+        {
+            label: "My 3 dataset",
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: [28, 48, 40, 19, 96, 27]
+        },
+
+    ]
+};
+
+
+        //draw
+        var myRadarChart = new Chart(ctx).Radar(data, {responsive:true});
+   
+      });
+
   </script>
 </div>
 
