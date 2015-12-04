@@ -243,9 +243,7 @@
 
 <div id="estadisticas">
 <h1> Estadisticas</h1>
-<img class= "image" src="images/renovafuerte_araña.png" alt="HTML5 Icon" style="width:100%; height:500px;"/>
-<img class= "image" src="images/renovamedia.png" alt="HTML5 Icon" style="width:100%; height:500px;"/>
-<img class= "image" src="images/renovabaja_araña.png" alt="HTML5 Icon" style="width:100%; height:500px;"/>
+
 <!--tchart-->
 <canvas id="mycanvas"></canvas>
    
@@ -314,37 +312,37 @@
 
         var data = {
     labels: ["Espacio Público", "Movilidad", "construcciones para la clase alta", "Incremento de niveles", "Dispositivos de Seguridad", "Signos de culturas extranjeras"],
-    datasets: [
+ datasets: [
         {
             label: "My First dataset",
-            fillColor: "rgba(220,220,220,0.2)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,1)",
-            pointStrokeColor: "#fff",
-            pointHighlightFill: "#fff",
-            pointHighlightStroke: "rgba(220,220,220,1)",
-            data: [65, 59, 90, 81, 56, 55]
+            fillColor: "rgba(94,8,7,0.5)",
+            strokeColor: "rgba(94,8,7,0.5)",
+            pointColor: "rgba(94,8,7,1)",
+            pointStrokeColor: "rgba(94,8,7,0.5)",
+            pointHighlightFill: "rgba(94,8,7,1)",
+            pointHighlightStroke: "rgba(94,8,7,1)",
+            data: [10, 9, 16, 13, 9, 0]
         },
         {
             label: "My Second dataset",
-            fillColor: "rgba(151,187,205,0.2)",
-            strokeColor: "rgba(151,187,205,1)",
-            pointColor: "rgba(151,187,205,1)",
-            pointStrokeColor: "#fff",
-            pointHighlightFill: "#fff",
-            pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 96, 27]
+            fillColor: "rgba(178,8,14,0.5)",
+            strokeColor: "rgba(178,8,14,0.5)",
+            pointColor: "rgba(178,8,14,1)",
+            pointStrokeColor: "rgba(94,8,7,0.5)",
+            pointHighlightFill: "rgba(94,8,7,1)",
+            pointHighlightStroke: "rgba(94,8,7,1)",
+            data: [9, 15, 5, 1, 2, 5]
         },
 
         {
             label: "My 3 dataset",
-            fillColor: "rgba(151,187,205,0.2)",
-            strokeColor: "rgba(151,187,205,1)",
-            pointColor: "rgba(151,187,205,1)",
-            pointStrokeColor: "#fff",
-            pointHighlightFill: "#fff",
-            pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 96, 27]
+            fillColor: "rgba(214,10,19,0.2)",
+            strokeColor: "rgba(214,10,19,0.2)",
+            pointColor: "rgba(214,10,19,.5)",
+            pointStrokeColor: "rgba(214,10,19,1)",
+            pointHighlightFill: "rgba(94,8,7,1)",
+            pointHighlightStroke: "rgba(94,8,7,1)",
+            data: [12, 19, 1, 0, 1, 5]
         },
 
     ]
@@ -352,7 +350,7 @@
 
 
         //draw
-        var myRadarChart = new Chart(ctx).Radar(data, {responsive:true});
+        var myRadarChart = new Chart(ctx).Radar(data, {responsive:true, datasetStrokeWidth: 1.5, pointDotRadius : 2, angleLineWidth : 5, scaleLineColor: "rgba(0,0,0,.15)",});
    
       });
 
