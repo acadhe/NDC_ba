@@ -177,13 +177,17 @@ h3 {
 
 #right #titulo {
         border: 1px #b0c4de;
-        background-color: rgba(252, 72, 25, .8); 
+        background-color: rgba(0, 0, 0, .8); 
         width: 100%;
         position: fixed;
         margin-top: 0;
-        text-align: left;
         z-index: 4;
+
       
+    }
+#right #titulo h1{
+        width: 100%;
+        margin-left: 92px;     
     }
 
 #right #big_wrapper { 
@@ -219,10 +223,10 @@ h3 {
 
 #renovacion {
   width: 100%;
-  border: 1px solid gray;
-  border-radius: 0px;
-  background: rgba(217, 176, 54, .1);
-  border-style: dashed;
+  border: 0px solid gray;
+  border-radius: 12px;
+  background: rgba(178,8,14,0.1);
+  margin: 0;
 }
 
 
@@ -292,10 +296,10 @@ text-align: left;
 
 #deterioro {
   width: 100%;
-  border: 1px solid gray;
-  border-radius: 0px;
+  border: 0px solid gray;
+  border-radius: 10px;
   background: rgba(47, 128, 197, .1);
-  border-style: dashed;
+  margin-top: 10px;
 }
 
  #deterioro h1{
@@ -306,7 +310,7 @@ letter-spacing: .5rem;
 margin: 0px 0px 0px 0px;
 height: 30px;
 background-color: rgba(47, 128, 197, .7);
-border-radius: 10px 10px, 0 , 0;
+border-radius: 15px 15px 0 0;
 }
 
 #mapp h1{
@@ -318,14 +322,21 @@ margin: 10px 0px 0px 0px;
 height: 30px;
 width: 100%;
 background-color: rgba(34, 131, 67, .5);
-border-radius: 10px 10px, 0 , 0;
+border-radius: 10px 10px 0  0;
 }
+
+
 #mapp img{
 margin: 0px 0px 10px 0px;
 border-radius: 15px;
 }
 #mapp img.image3{
 background-color: rgba(128,127,131,.15);
+}
+
+#estadisticas{
+width: 100%;
+border-radius: 0px;
 }
 
 #estadisticas h1{
@@ -336,13 +347,24 @@ letter-spacing: .1rem;
 margin: 10px 0px 15px 0px;
 height: 30px;
 width: 100%;
-background-color: rgba(34, 131, 67, .5);
-border-radius: 10px 10px, 0 , 0;
+background-color: rgba(41, 10, 16, .5);
+border-radius: 10px 10px 0  0;
 }
-#estadisticas #mycanvas{
-margin: 0px 0px 10px 0px;
+
+#estadisticas #canvas{
+margin: 10px 0px 15px 0px;
 border-radius: 15px ;
-border-color: 1px solid black;
+border-color: 0px solid black;
+background-color: rgba(128,127,131,.15);
+padding: 5px;
+width: 100%;
+position: center;
+}
+
+#estadisticas #canvas canvas{
+margin: 10px 0px 0px 0px;
+padding: 0px;
+width: 100%;
 }
 
 
@@ -354,8 +376,8 @@ font-size: 1.5rem;
 letter-spacing: .5rem;
 margin: 0px 0px 0px 0px;
 height: 30px;
-background-color: rgba(217, 176, 54, .7);
-border-radius: 10px 10px, 0 , 0;
+background-color: rgba(178,8,14,0.8);
+border-radius: 15px 15px 0 0;
 
 }
 
