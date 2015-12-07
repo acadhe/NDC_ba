@@ -103,6 +103,15 @@ body
     line-height: 30px;
 }
 
+#right #content2 iframe {
+    border-radius: 10px;
+    width: 800px;
+    height: 600px;
+    margin: 0 40px 30px 20px;
+    line-height: 30px;
+}
+
+
   
 
 #left {
