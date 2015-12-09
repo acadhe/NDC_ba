@@ -448,13 +448,13 @@ border-radius: 15px 15px 0 0;
 
 
 
-#right #big_wrapper #texto-derecha {
+#right #big_wrapper #ex #texto-derecha {
       background: rgba(20, 20, 20, 0) ;
-      width: 200px;
+      width: 180px;
       padding: 5px;
       margin-top: 80px;
       margin-right: 20px;
-      margin-left: -5px;
+      margin-left: -20px;
       border-radius: 3px;
       height: 360px;
       border: 1px solid rgba(20, 20, 20, 1) ;
