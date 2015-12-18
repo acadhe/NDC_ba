@@ -677,6 +677,34 @@ ul.rig.columns-4 li {
    opacity: .7;
   }
  
+ #forma {
+  margin-left: 20px;
+ }
+
+ #forma > form{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  white-space: 10px;
+  text-align: left;
+  line-height: 30px;
+ }
+
+#forma #comment{
+  
+  width: 615px; 
+  height: 100px;
+  text-align: top;
+
+ }
+
+ #forma #enviar{
+  margin-top: 20px;
+
+
+
+ }
+
+
 
 
 
