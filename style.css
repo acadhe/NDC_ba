@@ -689,16 +689,18 @@ ul.rig.columns-4 li {
   line-height: 30px;
  }
 
+
+
 #forma #comment{
   
   width: 615px; 
   height: 100px;
-  text-align: top;
+  border: 1px solid gray;
 
  }
 
  #forma #enviar{
-  margin-top: 20px;
+  margin-top: 0px;
 
 
 
