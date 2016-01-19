@@ -696,15 +696,24 @@ ul.rig.columns-4 li {
   width: 615px; 
   height: 100px;
   border: 1px solid gray;
+  background-color: black;
+  color: white;
 
  }
 
  #forma #enviar{
   margin-top: 0px;
 
-
-
  }
+
+ #webgl {
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+  border-radius: 50px;
+ }
+
+
 
 
 
