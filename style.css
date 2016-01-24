@@ -49,6 +49,7 @@ body
     height:100%;
     padding: 0;
     z-index: 2;
+    overflow-x: hidden;
 
   }   
 
@@ -59,22 +60,23 @@ body
     outline: 0px solid;
     position: absolute;
     right: 0;
-    background: white;
     border: 0;
+      background-color: rgba(0, 141, 210, .1);
+
 
 }
 
 #right #content {
-    width: 97%;
+    width: 100%;
     height: 100%;
-    margin-left: 10px;
-    margin-right: 30px;
+    margin-left: 120px;
+    margin-right: 0px;
     margin-top: 10px;
     outline: 0px solid;
     position: relative;
     right: 0;
-    background-color: white;
     border: 0;
+
 
 }
 
@@ -121,7 +123,33 @@ body
     background-color: rgba(18,18,18,.95);
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
+
+
+#left h1 {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+    font-weight: normal;
+    color: white;
+    margin-left: 10%;
+
+}
+
+#left h1:hover {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+    font-weight: normal;
+    color: rgb(0, 141, 210);
+    margin-left: 10%;
+
+
+}
+
 
 .effect img.image {
     display: block;
@@ -154,15 +182,16 @@ body
   }
 
 #left h4 {
-  text-align: center;
+  text-align: left;
   font-family: "Courier New", Courier, monospace;
   color: white;
   font-size: .7em;
   font-weight: normal;
   margin-top: 0.1em;
-  margin-left: 15%;
-  margin-right: 15%;
-  position: middle;
+  margin-left: 10%;
+  margin-right: 20%;
+  color: gray;
+ 
   word-wrap: break-word;
 
   }
@@ -618,7 +647,7 @@ ul.rig li p {
 }
 /* class for 2 columns */
 ul.rig.columns-2 li {
-  width: 48.5%; /* this value + 2.5 should = 50% */
+  width: 80%; /* this value + 2.5 should = 50% */
 }
 /* class for 3 columns */
 ul.rig.columns-3 li {
@@ -629,7 +658,7 @@ ul.rig.columns-4 li {
   width: 22.5%; /* this value + 2.5 should = 25% */
 }
  
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   ul.grid-nav li {
     display: block;
     margin: 0 0 0px;
@@ -690,21 +719,32 @@ ul.rig.columns-4 li {
  }
 
 
+#forma input{
+  
+
+  border: 1px solid gray;
+  background-color: rgba(7,7,7,.3);
+  color: white;
+
+ }
+
 
 #forma #comment{
   
   width: 615px; 
   height: 100px;
   border: 1px solid gray;
-  background-color: black;
+  background-color: rgba(7,7,7,.3);
   color: white;
 
  }
 
  #forma #enviar{
   margin-top: 0px;
-
- }
+  width: 100px;
+  background-color: rgba(7,7,7,.5);
+  border-radius: 5px;
+   }
 
  #webgl {
   width: 100%;
