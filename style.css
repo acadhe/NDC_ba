@@ -595,6 +595,12 @@ margin-top: 45px;
 margin-bottom: 0%;
   }
 
+  #right #content0 {
+margin-top: 30px;
+
+
+  }
+
 
 
 /* taken from http://alijafarian.com/responsive-image-grids-using-css/ */
@@ -665,7 +671,7 @@ ul.rig li p {
 /* class for 2 columns */
 ul.rig.columns-2 li {
   width: 90%;
-  margin-left: 60px;
+  margin-left: 45px;
   /* this value + 2.5 should = 50% */
 }
 /* class for 3 columns */
