@@ -664,7 +664,8 @@ ul.rig li p {
 }
 /* class for 2 columns */
 ul.rig.columns-2 li {
-  width: 100%;
+  width: 90%;
+  margin-left: 60px;
   /* this value + 2.5 should = 50% */
 }
 /* class for 3 columns */
