@@ -76,8 +76,6 @@ body
     position: relative;
     right: 0;
     border: 0;
-
-
 }
 
 #right #content2 {
@@ -87,6 +85,7 @@ body
     margin-right: 5%;
     margin-left: 5%;
     border-radius: 20px; 
+    background-color: white;
     border: 1px solid black;
   
 
@@ -107,7 +106,7 @@ body
 
 #right #content2 iframe {
     border-radius: 10px;
-    width: 800px;
+    width: 866px;
     height: 600px;
     margin: 0 40px 30px 20px;
     line-height: 30px;
@@ -150,6 +149,55 @@ body
 
 }
 
+#left h2 {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+    font-weight: normal;
+    color: rgb(0, 141, 210);
+    margin-left: 9%;
+
+}
+
+#left h2:hover {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+    font-weight: normal;
+    color: white;
+    margin-left: 9%;
+
+
+}
+
+#left h4 {
+    text-align: center;
+    font-size: .8em;
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+    font-weight: normal;
+    color: gray;
+    max-width: 80%;
+    margin-left: 11%;
+    word-wrap: break-word;
+
+}
+
+#left h4:hover {
+    text-align: center;
+    font-size: .8em;
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+    font-weight: normal;
+    color: white;
+    margin-left: 11%;
+    word-wrap: break-word;
+
+
+}
+
 
 .effect img.image {
     display: block;
@@ -170,31 +218,7 @@ body
     display: block;
 }
 
-#left h3 {
-  text-align: center;
-  font-size: 1em;
-  font-family: "Lucida Console", monospace;
-  color: white;
-  font-weight: normal;
-  margin-bottom: .5em;
-  
 
-  }
-
-#left h4 {
-  text-align: left;
-  font-family: "Courier New", Courier, monospace;
-  color: white;
-  font-size: .7em;
-  font-weight: normal;
-  margin-top: 0.1em;
-  margin-left: 10%;
-  margin-right: 20%;
-  color: gray;
- 
-  word-wrap: break-word;
-
-  }
 
 h1 { 
     display: block;
@@ -223,16 +247,7 @@ h2 {
     margin-left: 20px;
 }
 }
-h3 { 
-    display: block;
-    font-size: 1em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    color: yellow;
-}
+
 
 #right h3 { 
     display: block;
@@ -585,6 +600,7 @@ margin-bottom: 0%;
 /* taken from http://alijafarian.com/responsive-image-grids-using-css/ */
 ul.rig.columns-2 li img.img1 {
     max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 0 0 10px;
 }
@@ -593,6 +609,7 @@ ul.rig.columns-2 li img.hover {
     max-width: 100%;
     height: auto;
     margin: 0 0 10px;
+
 }
 
 ul.rig.columns-2 li:hover img.img1 {
@@ -647,7 +664,8 @@ ul.rig li p {
 }
 /* class for 2 columns */
 ul.rig.columns-2 li {
-  width: 80%; /* this value + 2.5 should = 50% */
+  width: 100%;
+  /* this value + 2.5 should = 50% */
 }
 /* class for 3 columns */
 ul.rig.columns-3 li {
