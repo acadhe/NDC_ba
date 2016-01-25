@@ -246,7 +246,7 @@ h2 {
     line-height: 30px;
     margin-left: 20px;
 }
-}
+
 
 
 #right h3 { 
@@ -319,7 +319,7 @@ h2 {
       border-top: 1px  dashed rgba(20, 20, 20, .5);
       display: -webkit-box;
       -webkit-box-orient:horizontal;
-      width: :100%;
+      width: 100%;
 }
 
  #ex1, #ex2, #ex3, #ex4, #ex5, #ex6, #ex7 {
